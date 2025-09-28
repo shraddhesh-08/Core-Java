@@ -1,7 +1,7 @@
 // Write a java program to enter two numbers and perform all arithmetic operations. 
 
 
-import java.util.Scanner;
+import java.util.*;
 
 public class ArithmeticOperations {
     public static void main(String[] args) {
@@ -14,7 +14,7 @@ public class ArithmeticOperations {
         System.out.print("Enter second number: ");
         int num2 = sc.nextInt();
 
-        // Use Opretor And  
+        // Display result 
         System.out.println("\n--- Results ---");
         System.out.println("Addition: " + (num1 + num2));
         System.out.println("Subtraction: " + (num1 - num2));
