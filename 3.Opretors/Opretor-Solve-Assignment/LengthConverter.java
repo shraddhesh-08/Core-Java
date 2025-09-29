@@ -19,9 +19,3 @@ public class LengthConverter {
         System.out.println("Length in Kilometer: " + kilometer);
     }
 }
-
-
-
-//program to convert length from centimeter to meter and kilometer
-
-
