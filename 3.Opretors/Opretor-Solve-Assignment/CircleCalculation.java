@@ -1,7 +1,7 @@
 /* Write a java program to enter radius of a circle and find its diameter,area and circumference.
         Formula :-
             diameter=2 * radius;
-            circumference = 2 * 3.14 * radius;
+            circumference = 2 * 3.14 * radius; 
             area = 3.14 * radius * radius;
 */ 
 
