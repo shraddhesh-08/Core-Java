@@ -20,4 +20,3 @@ public class ThirdAngleOfTriangle {
         System.out.println("The third angle of the triangle is: " + angle3);
     }
 }
-
