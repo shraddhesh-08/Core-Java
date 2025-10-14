@@ -12,6 +12,6 @@ public class ASCIIValueCharacter {
 
         int ascii = (int) ch;  // Type casting char to int to get ASCII value
 
-        System.out.println("THE ASCII VALUE OF :- " + ascii); 
+        System.out.println("THE ASCII VALUE OF  '" +ch +"' Is -> "+ ascii); 
     }
 }
