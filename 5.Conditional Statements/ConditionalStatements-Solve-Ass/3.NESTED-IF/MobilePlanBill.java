@@ -9,22 +9,25 @@
         Output: Total monthly bill.
 */ 
 
+
 import java.util.*;
-public class MobilePlanBill {
-        public static void main(String[] args) {
-                Scanner sc = new Scanner(System.in);
-                System.out.print("Minutes used in a month :- ");
-                int min = sc.nextInt();
 
-                double bill = 199;
+class MobilePlanBill {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
 
-                 // Calculate extra charges using nested if
-        if (min > 100) {
-            int extra = min - 100;
+        System.out.print("Enter minutes used in a month: ");
+        int minutes = sc.nextInt();
 
-            if (min <= 300) {           // 101–300 mins
+        double bill = 199; 
+
+        // Calculate extra charges using nested if
+        if (minutes > 100) {
+            int extra = minutes - 100;
+
+            if (minutes <= 300) {           // 101–300 mins
                 bill += extra * 1;
-            } else if (min <= 500) {    // 301–500 mins
+            } else if (minutes <= 500) {    // 301–500 mins
                 bill += 200 * 1;            // 101–300 mins charge
                 bill += (extra - 200) * 1.5;
             } else {                        // Above 500 mins
@@ -33,12 +36,11 @@ public class MobilePlanBill {
                 bill += (extra - 400) * 2;  // above 500 mins
             }
         }
+
         System.out.println("Total monthly bill: ₹" + bill);
-    
-
-        }
-
+    }
 }
+
 
 
 

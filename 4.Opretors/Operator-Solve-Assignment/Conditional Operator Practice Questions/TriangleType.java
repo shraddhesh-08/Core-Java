@@ -17,7 +17,7 @@ public class TriangleType {
          // Check triangle type using ternary operators
         String res = (a == b && a == c) ? " Equilateral Triangle" :
                      (a == b || b == c || a == c) ? " Isoscale Triangle" :
-                     " Scalene Triangle" ;
+                     " Scalene Triangle" ; 
 
         System.out.println(res);
     }

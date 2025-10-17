@@ -14,6 +14,6 @@ public class FstlstDigitSum{
         // Calculate sum
         int sum = fstno + lastno;
 
-        System.out.println("first and last digit of a number -> " +sum);
+        System.out.println("Sum of first and last digit  -> " +sum);
     }
 }
