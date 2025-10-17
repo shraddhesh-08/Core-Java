@@ -1,7 +1,7 @@
 // Q4. Write a java program to print all even numbers between 1 to 100.- using while loop
 
 
-public class EvenOdd{
+public class EvenNumber{
     public static void main(String x[]){
        
         int no = 1;
@@ -10,8 +10,7 @@ public class EvenOdd{
             if(no % 2 ==0){
             System.out.println(no + " ");
             }
-            no++;
-            
+            no++;    
         }
     }
 }
