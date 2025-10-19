@@ -1,5 +1,6 @@
 // Q. WAP to input five values in array and find max value from array?
 
+
 import java.util.*;
 public class MaxNumber {
     public static void main(String[] args) {
